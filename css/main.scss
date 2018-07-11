@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav {
+  background: #b61924;
+  box-shadow: none;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1,
+  p {
+    margin: 0 auto;
+  }
+}
+
+.section1 {
+  min-height: calc(100vh - 64px); //background: #333;
+  color: white;
+}
+
+.section2 {
+  position: relative;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js,
+#particles-js2 {
+  position: absolute;
+  width: 100%;
+  background-color: #333;
+  height: 100%; //background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -10;
+}
+
+#particles-js2 {
+  //background: rgb(65, 180, 218);
+  background: white;
+}
