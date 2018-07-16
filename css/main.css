@@ -58,6 +58,7 @@ nav {
 .section1 {
   min-height: 100vh;
   color: white;
+  background: #333;
 }
 
 .section2 {
@@ -79,16 +80,10 @@ canvas {
   pointer-events: all;
   position: absolute;
   width: 100%;
-  background-color: #333;
   height: 100%;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  z-index: -10;
-}
-
-#particles-js2 {
-  background: white;
 }
 /*# sourceMappingURL=main.css.map */

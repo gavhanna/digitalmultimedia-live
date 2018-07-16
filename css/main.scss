@@ -41,6 +41,7 @@ nav {
 .section1 {
   min-height: 100vh; //background: #333;
   color: white;
+  background: #333;
 }
 
 .section2 {
@@ -62,17 +63,15 @@ canvas {
 #particles-js2 {
   pointer-events: all;
   position: absolute;
-  width: 100%;
-  background-color: #333;
+  width: 100%; //background-color: #333;
   height: 100%; //background-color: #b61924;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
-  z-index: -10;
+  background-position: 50% 50%; //z-index: -10;
 }
 
 #particles-js2 {
   //background: rgb(65, 180, 218);
-  background: white;
+  //background: white;
 }
