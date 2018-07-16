@@ -18,13 +18,13 @@ main {
 }
 
 nav {
-  background: rgba(51, 51, 51, 0.7);
+  background: rgba(51, 51, 51, 0);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .change {
-  background: rgba(226, 226, 226, 0.7);
+  background: rgba(226, 226, 226, 0);
 }
 
 .change .nav-wrapper {
@@ -57,8 +57,19 @@ nav {
 
 .section1 {
   min-height: 100vh;
-  color: white;
-  background: #333;
+  color: #000;
+  background-image: url("../img/light3.jpg");
+  background-size: cover;
+}
+
+.section1 h1 {
+  font-size: 8rem;
+  font-family: "Megrim";
+}
+
+.section1 p {
+  font-size: 2rem;
+  color: #111;
 }
 
 .section2 {
