@@ -9,6 +9,7 @@ body {
           flex-direction: column;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
+  background: #000;
 }
 
 main {
