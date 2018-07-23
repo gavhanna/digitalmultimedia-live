@@ -48,7 +48,7 @@ nav {
 .section1 {
   min-height: 100vh; //background: #333;
   color: #000; //background: #333;
-  background-image: url("../img/light3.jpg");
+  background-image: url("../img/bg1.jpg");
   background-size: cover;
   color: black;
 }
@@ -91,6 +91,9 @@ nav {
 
 .section2 {
   position: relative;
+  background-color: #013A6B;
+  color: white;
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
 }
 
 .page-footer {
